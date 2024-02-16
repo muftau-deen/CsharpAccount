@@ -1,0 +1,33 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+
+
+namespace CS_assignment
+{
+    class Solution
+    {
+        static void Main(string[] args)
+        {
+            int i = 4;
+            double d = 4.0;
+            string s = "Poly ilaro ";
+            
+            Console.WriteLine("Enter an integer");
+            string iname = Console.ReadLine();
+            int num1 = int.Parse(iname);
+            int sum = num1 + i;
+            Console.WriteLine("The Sum is = "+ sum);
+            Console.WriteLine("Enter a double");
+            string dname = Console.ReadLine();
+            double num2 = double.Parse(dname);
+            double sum2 = num2 + d;
+            Console.WriteLine("The Sum is = " + sum2);
+            Console.WriteLine("Regards? ");
+            string sname = Console.ReadLine();
+            Console.WriteLine(s + sname);
+            Console.ReadLine();
+            
+        }
+    }
+}
